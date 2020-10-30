@@ -14,7 +14,6 @@ let maxScore = 6;
 const words = [
   'JAVASCRIPT',
   'STYLESHEET',
-  'NATHANAEL',
   'BECODE',
   'VELO',
   'BATEAU',
@@ -126,7 +125,7 @@ const endGame = () => {
   els.choices.innerHTML = `<h1>YOU ARE DEAD, BRO !</h1>`;
 };
 const winGame = () => {
-  document.querySelector('body').style.backgroundColor = 'blue';
+  document.querySelector('body').style.backgroundColor = 'green';
   els.choices.innerHTML = `<h1>YOU ARE ALIVE !</h1>`;
 }
 
