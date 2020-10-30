@@ -121,6 +121,8 @@ const checkLetter = (letter) =>{
 };
 
 const endGame = () => {
+  wordMapping.forEach(w => w.isVisible = true);
+  displayWord(wordMapping);
   document.querySelector('body').style.backgroundColor = 'red';
   els.choices.innerHTML = `<h1>YOU ARE DEAD, BRO !</h1>`;
 };

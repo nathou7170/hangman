@@ -1,9 +1,23 @@
+body {
+  display: flex;
+  background-color: rgb(0, 140, 255);
+}
+
 #choices li, #answer li {
   display: inline-block;
   margin: 10px;
 }
 
+#score{
+  width: 40vw;
+}
+#wrapper{
+  width: 60vw;
+  flex-direction: column;
+  display: flex;
+}
 
 .disabled{
   opacity: .3;
 }
+
