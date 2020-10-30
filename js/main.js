@@ -19,6 +19,10 @@ const words = [
   'BATEAU',
   'HIVER',
   'BITCOIN',
+  'CANNARD',
+  'BIBLIOTHEQUE',
+  'ORDINATEUR',
+  'AMPOULE',
 
 ]
 
